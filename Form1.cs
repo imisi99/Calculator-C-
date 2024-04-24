@@ -52,7 +52,7 @@ namespace calculator
 
             else
             {
-                MessageBox.Show("The result gotten was not a real number");
+                MessageBox.Show(diff.ToString(), "The result gotten was not a real number! ");
             }
         }
 
