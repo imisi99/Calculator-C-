@@ -17,6 +17,7 @@ namespace calculator
             InitializeComponent();
         }
 
+
         private void button1_Click(object sender, EventArgs e)
         {
             String value1 = textBox1.Text;
@@ -29,8 +30,8 @@ namespace calculator
             val2 = int.Parse(value2);
 
             int sum = val1 + val2;
-
-            MessageBox.Show(sum.ToString());
+            Console.WriteLine();
+            MessageBox.Show("Dave", "message", MessageBoxButtons.YesNo);
         }
 
         private void button2_Click(object sender, EventArgs e)
